@@ -7,11 +7,10 @@ import { HeroService } from '../hero.service';
 import { Location } from '@angular/common';
 
 @Component({
-  selector: 'app-hero-detail',
-  standalone: true,
-  imports: [CommonModule, FormsModule ],
-  templateUrl: './hero-detail.component.html',
-  styleUrl: './hero-detail.component.css',
+    selector: 'app-hero-detail',
+    imports: [CommonModule, FormsModule],
+    templateUrl: './hero-detail.component.html',
+    styleUrl: './hero-detail.component.css'
 })
 export class HeroDetailComponent implements OnInit {
   @Input() hero?: Hero;

@@ -10,11 +10,10 @@ import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-hero-search',
-  standalone: true,
-  imports: [ CommonModule, RouterLink ],
-  templateUrl: './hero-search.component.html',
-  styleUrls: ['./hero-search.component.css'],
+    selector: 'app-hero-search',
+    imports: [CommonModule, RouterLink],
+    templateUrl: './hero-search.component.html',
+    styleUrls: ['./hero-search.component.css']
 })
 export class HeroSearchComponent implements OnInit {
   heroes$!: Observable<Hero[]>;

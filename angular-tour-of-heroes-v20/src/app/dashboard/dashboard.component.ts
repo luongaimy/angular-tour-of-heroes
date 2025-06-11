@@ -7,11 +7,10 @@ import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 import { HeroSearchComponent } from "../hero-search/hero-search.component";
 
 @Component({
-  standalone: true,
-  selector: 'app-dashboard',
-  imports: [CommonModule, RouterLink, HeroSearchComponent],
-  templateUrl: './dashboard.component.html',
-  styleUrls: [ './dashboard.component.css' ]
+    selector: 'app-dashboard',
+    imports: [CommonModule, RouterLink, HeroSearchComponent],
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];

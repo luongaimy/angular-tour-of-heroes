@@ -9,16 +9,15 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-heroes',
-  standalone: true,
-  imports: [
-    FormsModule,
-    CommonModule,
-    RouterOutlet,
-    RouterLink
-  ],
-  templateUrl: './heroes.component.html',
-  styleUrl: './heroes.component.css',
+    selector: 'app-heroes',
+    imports: [
+        FormsModule,
+        CommonModule,
+        RouterOutlet,
+        RouterLink
+    ],
+    templateUrl: './heroes.component.html',
+    styleUrl: './heroes.component.css'
 })
 export class HeroesComponent implements OnInit {
   hero: Hero = {
