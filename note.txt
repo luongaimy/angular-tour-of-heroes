@@ -1,0 +1,93 @@
+https://nodejs.org/fr
+https://angular.dev/
+
+https://v17.angular.io/docs
+
+npm install -g @angular/cli
+
+npx @angular/cli@17 version
+
+npx @angular/cli@17 new angular-tour-of-heroes
+
+https://v17.angular.io/tutorial/tour-of-heroes/toh-pt0
+
+
+
+https://reactivex.io/
+
+
+https://rxjs.dev/
+
+
+https://v17.angular.io/guide/lifecycle-hooks
+
+
+https://v17.angular.io/tutorial/tour-of-heroes/toh-pt4#observable-data
+
+
+https://excalidraw.com/#json=1IvJl4a1WBW0bmLKqM7eV,C3fXymVR8oz9xmWJhbGpFQ
+
+
+https://bolt.new/
+
+
+npm install angular-in-memory-web-api@0.17 --save
+
+https://excalidraw.com/#json=M1dZiby60H8zAP9un-B7b,gSc3qqEV3G3GEjCCc8rriA
+
+
+https://rxmarbles.com/#debounceTime
+
+https://www.youtube.com/watch?v=ak3MvMn8u18
+
+
+
+https://www.learnrxjs.io/
+
+
+https://rxjs.dev/operator-decision-tree
+
+
+https://angular.dev/update-guide
+
+
+https://www.originui-ng.com/
+
+
+https://rxjs.dev/guide/testing/marble-testing
+
+
+https://www.mockaroo.com/
+
+
+https://jsonplaceholder.typicode.com/todos
+
+https://www.primefaces.org/
+
+
+https://storybook.js.org/
+
+
+
+
+11/06/2025
+-----
+Extension: Angular Snippet
+
+HttpClient
+
+inject Service >> constructor
+
+service A injected in the child component
+parent component wants to use the child service => inject in the parent service too 
+
+In the angular-tour-of-heroes\src\app\app.routes.ts
+
+asyncPipe
+
+Update Angular to v20.0.3
+
+Hot vs. Cold observable
+
+12/06/2025
+
